@@ -25,3 +25,51 @@ closed groups.
 5. Concurrency is the parallel completion of multiple tasks and operations. It is an intrinsic property of distributed systems.
 6. Coordination is the smooth collaboration between operations and events.
 Synchronzaion orders and controls resource sharing.
+
+### Common Motives
+
+1. Concensus
+    - Online Banking
+    - Bidding Platform
+2. Resource Sharing
+    - Distributed Databases
+    - Distributed File Systems
+    - Example: BitTorrent
+3. Data replication
+4. Horizontal Scalability
+5. Availability
+
+### Types of Distrubuted System
+
+1. Coupling and Scale
+    1. Cluster Computing
+        - Homogenous
+        - Management is centralized
+        - Used for high perfomance and minimum downtime
+    2. Grid Computing
+        - Heterogenous and geographically dispersed
+        - Management is decentralized
+        - Used for large repository of data and high computing power
+2. Architecture Model
+    1. Layered
+    Nodes are grouped into seperate layers, each with a specific goal, e.g. Client-Server Model
+    2. Object-Based
+    Nodes are loosely coupled with synchronous communication that can make direct calls to other nodes. 
+    3. Data-centered
+    The system is based around a primary data centre through which the nodes communicate. 
+    4. Event-based
+    Nodes communicate and perform operations through their reaction to events.
+    
+### Advantages
+
+1. Reliability
+2. Scalability
+3. Fault Tolerance
+4. Increased Performance
+
+### Disadvantages
+
+1. Difficult to detect failures
+2. Performance bottlenecks
+3. Redundancy
+4. Inconsistency
