@@ -1,4 +1,4 @@
-#Distributed System
+# Distributed System
 
 A distributed system is a collection of seperate and independernt software/hardware components, called nodes, that are networked and work together coherently by coordincating and communicating through messages passing or events, to fulfill one end goal.
 
